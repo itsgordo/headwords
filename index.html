@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiona's Headword Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Headword Finder</h1>
+        <div class="image-container">
+            <img src="img/smartie.png" alt="Headword Finder" />
+        </div>
+        <form id="wordForm">
+            <label for="wordInput">Enter a list of words to see which ones are headwords</label>
+            <!-- Use <textarea> for multi-line input -->
+            <textarea id="wordInput" rows="5" placeholder="Enter a word (one per line)"></textarea>
+            <button type="submit">Search</button>
+        </form>
+
+        <div id="results">
+            <!-- Search results will appear here -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
