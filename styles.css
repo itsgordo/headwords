@@ -80,3 +80,38 @@ textarea {
   resize: vertical;
   margin-bottom: 10px;
 }
+
+#downloadContainer {
+  display: flex; /* Align buttons in the same line */
+  gap: 10px; /* Adds space between buttons */
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#downloadContainer {
+  display: none; /* Initially hidden */
+}
+
+#loadingMessage {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#downloadTxt {
+  background-color: #6493d3;
+}
+
+#downloadTxt:hover {
+  background-color: #3c77c8;
+}
+
+#downloadExcel {
+  background-color: #1c8d44;
+}
+
+#downloadExcel:hover {
+  background-color: #14622f;
+}
